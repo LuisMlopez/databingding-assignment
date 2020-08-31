@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "databingding-assignment-start"
+    }
+  },
+  "defaultProject": "databingding-assignment-start",
+  "cli": {
+    "analytics": "7574f385-6b90-4172-84b1-55e2a906411f"
+  }
 }

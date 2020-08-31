@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-8 text-center">
+    <button class="btn btn-success" (click)="onStartGame()" [disabled]="gameStatus === 'started'">Start</button>
+    <button class="btn btn-danger" (click)="onStopGame()" [disabled]="gameStatus === 'stopped'">Stop</button>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <hr>
+  </div>
+</div>
